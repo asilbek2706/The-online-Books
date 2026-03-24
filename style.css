@@ -1,0 +1,26 @@
+/*div ~ p {
+    background-color: red;
+}
+
+div + p {
+    background-color: red;
+}
+
+div p {
+    color: red;
+}
+
+div > p {
+    color: red;
+}*/
+
+
+/*
+    1. space-oddiy boshliq bolsa ichidagi hammasini oladi
+
+    2. '>' - belgisi esa faqat farzandlarini oladi, ammo boshqasiga tasir qilmaydi
+
+    3. '+' - osha elementning birinchi qoshnisini oladi
+
+    4. '~' - hammasini oladi
+*/
