@@ -1,0 +1,22 @@
+.title {
+    color: rgba(255, 0, 52, 0.1);
+    text-transform: lowercase;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+/*
+    1.color
+    2.HEX
+    3.RGB(A)
+
+    4.text-align : left, center, right
+
+    5.text-decoration: underline, line-through
+
+    6.
+*/

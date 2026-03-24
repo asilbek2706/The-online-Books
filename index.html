@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Online Books Page</title>
+    <link rel="stylesheet" href="stillar.css">
+</head>
+<body>
+
+<header>
+    <h1 class="title">The Online Books Page</h1>
+    <h2>book search</h2>
+</header>
+
+<hr>
+
+<main>
+    <form action="/search" method="POST">
+        <label for="author"><b>Author:</b></label>
+        <input type="text" id="author" name="author">
+
+        <br>
+
+        <label for="hello">
+            <input type="radio" id="hello" name="hello">
+            firstname
+        </label>
+        <label for="hello1">
+            <input type="radio" id="hello1" name="hello">
+            lastname
+        </label>
+
+        <br>
+        <br>
+
+        <label for="title"><b>Title:</b></label>
+        <input type="text" id="title" name="author">
+
+        <br>
+
+        <label for="world">
+            <input type="radio" id="world" name="hello1">
+            firstname
+        </label>
+        <label for="world1">
+            <input type="radio" id="world1" name="hello1">
+            lastname
+        </label>
+
+        <br>
+        <br>
+
+        <button type="submit">Search</button>
+        <button type="submit">Clear the form</button>
+
+        <br>
+        <hr>
+        <br>
+
+        <h3>Examples:</h3>
+        <ul>
+            <li>Entering Austen, Jane in the Author field finds books by Jane Austen.</li>
+            <li>Entering Hamlet in the Title field finds works with that title.</li>
+            <li>Entering Dostoevskiy finds Fyodor Dostovskiy works</li>
+        </ul>
+        <br>
+        <hr>
+        <br>
+
+        <a href="#">Home</a> -
+        <a href="#">Search</a> -
+        <a href="#">New Listings</a> -
+        <a href="#">Authors</a> -
+        <a href="#">Title</a> -
+        <a href="#">Serials</a>
+
+    </form>
+</main>
+
+<footer>
+    <p><em>&copy; Made by Asilbek</em></p>
+</footer>
+
+</body>
+</html>
