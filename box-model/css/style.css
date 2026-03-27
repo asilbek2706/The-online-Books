@@ -1,47 +1,31 @@
-.selector{
-    margin: 10px 30px 40px 20px;
+.example {
+    background-color: red;
+    display: inline-block;
+    min-width: 200px;
 
-    background: red;
+    border: 5px solid #222;
 
-    padding: 10px 20px 30px 40px;
-/*    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    margin-left: 20px;*/
+  /*  border-width: 5px;
+    border-style: solid;
+    border-color: blue;*/
 
-    border: 1px solid black;
-    /*border-top: 5px solid blue;
-    border-right: 2px solid blue;
-    border-bottom: 7px solid blue;
-    border-left: 10px solid blue;*/
+    margin: 20px 10px 30px 40px;
+    padding: 20px 10px 30px 40px;
 }
-
-
-.box1{
-    margin: 30px;
-}
-
-.box2{
-    margin: 20px;
-}
-
-
 
 /*
-.container {
-    margin: 10px;
-    border: 5px solid #ff0000;
-    border-radius: 2px;
-    !*border-width: 5px;
-    border-style: solid;
-    border-color: red;*!
+.box-1 {
+    width: 1000px;
+    background-color: red;
 }
-
-
-h1 {
-    color: red !important;
+.box-2 {
+    max-width: 1000px;
+    background-color: blue;
 }
+*/
 
-.sarlavha {
-    color: green;
+/*
+.paragraph {
+    background: red;
+    min-height: 70px;
 }*/
