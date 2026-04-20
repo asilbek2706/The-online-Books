@@ -1,38 +1,51 @@
-.to-none{
-    background: yellow;
-    color: crimson;
-    display: none;
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: red;
+    float: right;
 }
 
-.to-inline-block{
+/*.box{
+    width: 100px;
+    height: 200px;
     background: red;
     display: inline-block;
-    height: 500px;
-    width: 500px;
-}
+    float: left;
+}*/
 
-.to-inline{
-    background: red;
-    display: inline;
-    height: 500px;
-}
-
-
-.to-block{
-    background: red;
-    display: block;
-}
-
-.test{
-    height: 500px;
-}
 
 /*
+!*
 .heading-1{
-    background: red;
+    text-align: right;
 }
 
+*!
 
-.link{
-    background: red;
-}*/
+.container {
+    border: 1px solid black;
+    padding: 10px;
+}
+.container span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.box-2 {
+    width: 100px;
+    height: 150px;
+    background-color: blue;
+}
+.box-3 {
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+}
+*/
