@@ -2106,6 +2106,30 @@
         <option name="homepage" value="https://aicanvas.me" />
         <option name="urlTemplate" value="https://aicanvas.me/r/{name}.json" />
       </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-loading-ui" />
+        <option name="name" value="Loading-ui" />
+        <option name="namespace" value="@loading-ui" />
+        <option name="baseUrl" value="https://loading-ui.com/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="Spinners, loaders, and loading animations for modern web apps. Free and open-source." />
+        <option name="homepage" value="https://loading-ui.com" />
+        <option name="urlTemplate" value="https://loading-ui.com/r/{name}.json" />
+      </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-xcn" />
+        <option name="name" value="Xcn" />
+        <option name="namespace" value="@xcn" />
+        <option name="baseUrl" value="https://ui.radiumcoders.com/r/xcn" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="Hand-crafted, beautiful, and minimal UI components built with Tailwind CSS and Motion." />
+        <option name="homepage" value="http://ui.radiumcoders.com" />
+        <option name="urlTemplate" value="https://ui.radiumcoders.com/r/xcn/{name}.json" />
+      </RegistryConfigState>
     </registryConfigs>
   </component>
 </project>
