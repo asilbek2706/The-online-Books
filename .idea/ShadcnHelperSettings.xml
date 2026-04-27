@@ -2130,6 +2130,30 @@
         <option name="homepage" value="http://ui.radiumcoders.com" />
         <option name="urlTemplate" value="https://ui.radiumcoders.com/r/xcn/{name}.json" />
       </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-glasscn" />
+        <option name="name" value="Glasscn" />
+        <option name="namespace" value="@glasscn" />
+        <option name="baseUrl" value="https://glasscn-components.vercel.app/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="A shadcn-compatible registry of glassmorphism components inspired by Apple" />
+        <option name="homepage" value="https://glasscn.vercel.app/" />
+        <option name="urlTemplate" value="https://glasscn-components.vercel.app/r/{name}.json" />
+      </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-dotmatrix" />
+        <option name="name" value="Dotmatrix" />
+        <option name="namespace" value="@dotmatrix" />
+        <option name="baseUrl" value="https://dotmatrix.zzzzshawn.cloud/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="Production-ready dot-matrix loading components for React, featuring square, circular, and triangle animations with polished motion." />
+        <option name="homepage" value="https://dotmatrix.zzzzshawn.cloud" />
+        <option name="urlTemplate" value="https://dotmatrix.zzzzshawn.cloud/r/{name}.json" />
+      </RegistryConfigState>
     </registryConfigs>
   </component>
 </project>
