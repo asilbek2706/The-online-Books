@@ -2154,6 +2154,30 @@
         <option name="homepage" value="https://dotmatrix.zzzzshawn.cloud" />
         <option name="urlTemplate" value="https://dotmatrix.zzzzshawn.cloud/r/{name}.json" />
       </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-evilcharts" />
+        <option name="name" value="Evilcharts" />
+        <option name="namespace" value="@evilcharts" />
+        <option name="baseUrl" value="https://evilcharts.com/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="EvilCharts is an open-source chart UI website built with shadcn and Recharts, beautifully designed and handcrafted." />
+        <option name="homepage" value="https://evilcharts.com" />
+        <option name="urlTemplate" value="https://evilcharts.com/r/{name}.json" />
+      </RegistryConfigState>
+      <RegistryConfigState>
+        <option name="id" value="central-devl" />
+        <option name="name" value="Devl" />
+        <option name="namespace" value="@devl" />
+        <option name="baseUrl" value="https://devl.dev/r" />
+        <option name="stylePath" value="/{name}.json" />
+        <option name="type" value="community" />
+        <option name="enabled" value="false" />
+        <option name="description" value="Hand-crafted layouts and UI primitives for shipping fast." />
+        <option name="homepage" value="https://devl.dev" />
+        <option name="urlTemplate" value="https://devl.dev/r/{name}.json" />
+      </RegistryConfigState>
     </registryConfigs>
   </component>
 </project>
