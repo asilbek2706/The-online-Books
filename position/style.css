@@ -1,37 +1,28 @@
-.opacity-image{
-    opacity: 0.5;
+.blur{
+    filter: blur(5px);
+}
+.brightness{
+    filter: brightness(0.1);
+}
+.contrast{
+    filter: contrast(0.7);
+}
+.grayscale{
+    filter: grayscale(0.5);
+}
+.huerotate{
+    filter: hue-rotate(60deg);
+}
+.invert{
+    filter: invert(90%);
+}
+.opacity{
+    filter: opacity(1);
 }
 
-.opacity-image:hover{
-    opacity: 1;
-    border: 1px solid #ccc;
-    padding: 15px;
-    background-color: red;
+.gradient-box {
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(red, yellow, blue);
+    /*background-image: radial-gradient(circle, red, yellow, blue);*/
 }
-
-/*.thumbnail-image{*/
-/*    border: 1px solid #ccc;*/
-/*    border-radius: 5px;*/
-/*    padding: 15px;*/
-/*}*/
-
-/*.rounded-image{*/
-/*    border-radius: 50px;*/
-/*}*/
-
-/*.circle-image{*/
-/*    width: 400px;*/
-/*    height: 400px;*/
-/*    border-radius: 50%;*/
-/*}*/
-
-
-/*.box{*/
-/*    height: 1000px;*/
-/*    border: 5px solid red;*/
-/*    background-image: url("./images/main-bg.webp");*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: 1000px 800px;*/
-/*    !*background-size: contain;*!*/
-/*    background-position: right bottom;*/
-/*}*/
