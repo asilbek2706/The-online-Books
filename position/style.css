@@ -1,28 +1,58 @@
-.blur{
-    filter: blur(5px);
-}
-.brightness{
-    filter: brightness(0.1);
-}
-.contrast{
-    filter: contrast(0.7);
-}
-.grayscale{
-    filter: grayscale(0.5);
-}
-.huerotate{
-    filter: hue-rotate(60deg);
-}
-.invert{
-    filter: invert(90%);
-}
-.opacity{
-    filter: opacity(1);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.gradient-box {
-    width: 600px;
-    height: 400px;
-    background: linear-gradient(red, yellow, blue);
-    /*background-image: radial-gradient(circle, red, yellow, blue);*/
+body {
+    background: gray;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-image: url("./images/main-bg.webp");
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label{
+    color: white;
+    text-decoration: underline;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid red;
+    background: #005A32;
+    color: red;
+}
+
+input::placeholder, textarea::placeholder {
+    color: gray;
+    font-weight: bold;
+}
+
+.button {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid green;
+    border-radius: 15px;
+    background-color: green;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: #c38017;
+    border: 1px solid green;
 }

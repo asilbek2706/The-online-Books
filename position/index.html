@@ -3,20 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Position</title>
+    <title>Asilbek | CSS lessons</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-<img src="./images/main-bg.webp" alt="Blur image" class="blur">
-<img src="./images/main-bg.webp" alt="Blur image" class="brightness">
-<img src="./images/main-bg.webp" alt="Blur image" class="contrast">
-<img src="./images/main-bg.webp" alt="Blur image" class="grayscale">
-<img src="./images/main-bg.webp" alt="Blur image" class="huerotate">
-<img src="./images/main-bg.webp" alt="Blur image" class="invert">
-<img src="./images/main-bg.webp" alt="Blur image" class="opacity">
+<div class="container">
+    <form action="/server.php" method="GET">
 
-<div class="gradient-box"></div>
+        <label for="firstname">Ism</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Ismingiz">
+
+        <label for="lastname">Familiya</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Familiyangiz">
+
+        <label for="country">Davlat</label>
+        <select id="country" name="country">
+            <option>Davlat tanlang</option>
+            <option value="uzbekistan">O'zbekiston</option>
+            <option value="russia">Rossiya</option>
+            <option value="usa">AQSH</option>
+        </select>
+
+        <label for="message">Xabar</label>
+        <textarea id="message" name="message" placeholder="Xabaringiz" cols="10" rows="10"></textarea>
+
+        <button type="submit" class="button">Jo'natish</button>
+
+    </form>
+</div>
 
 </body>
 </html>
