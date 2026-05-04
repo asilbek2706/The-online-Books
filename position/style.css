@@ -1,58 +1,45 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.block-box {
+    display: inline-block;
+    width: 800px;
+    padding: 50px;
+    background-color: red;
 }
 
-body {
-    background: gray;
+.relative-box {
+    position: static;
+    background-color: yellow;
+    width: 40%;
+    float: left;
+    margin-right: 50px;
 }
 
-.container {
-    padding: 20px;
-    max-width: 1200px;
-    width: 100%;
-    margin: 20px auto;
-    border: 1px solid gray;
-    border-radius: 4px;
-    background-image: url("./images/main-bg.webp");
-    background-size: cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.relative-box2 {
+    position: static;
+    background-color: #00ff22;
+    width: 50%;
+    float: left;
 }
 
-label{
-    color: white;
-    text-decoration: underline;
-}
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 4px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    outline: none;
-    border: 1px solid red;
-    background: #005A32;
-    color: red;
-}
+/*.positioned-box{*/
+/*    width: 800px;*/
+/*    padding: 50px;*/
+/*    background-color: red;*/
+/*    position: relative;*/
+/*}*/
 
-input::placeholder, textarea::placeholder {
-    color: gray;
-    font-weight: bold;
-}
+/*.absolute-box{*/
+/*    background-color: yellow;*/
+/*    position: absolute;*/
+/*    width: 50%;*/
+/*}*/
 
-.button {
-    width: 100%;
-    padding: 10px 20px;
-    border: 1px solid green;
-    border-radius: 15px;
-    background-color: green;
-    color: #ffffff;
-}
 
-.button:hover {
-    background-color: transparent;
-    color: #c38017;
-    border: 1px solid green;
-}
+/*.fixed-box{*/
+/*    position: fixed;*/
+/*    width: 50%;*/
+/*    background-color: red;*/
+/*    height: 200px;*/
+/*    text-align: center;*/
+/*    line-height: 200px;*/
+/*}*/
